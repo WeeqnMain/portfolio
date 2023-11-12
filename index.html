@@ -1,13 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style-themes.css">
+  <title>Portfolio</title>
 </head>
-<body>
-    <h1>Home Page</h1>
-    <a href="about.html">About</a>
+<body class="page">
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-title">Букин Денис</h1>
+      <p><i>Unity Game Developer</i></p>
+      <!-- <button class="theme-button" type="button">Изменить тему</button> -->
+    </div>
+  </header>
+  <main>
+    <section class="about container">
+      <h2 class="section-title">О себе</h2>
+      <img class="about-image" src="img/pencil.png" width="147" height="147" alt="Навыки">
+      <div class="about-content">
+        <p>Студент, 18 лет. Занимаюсь разработкой игр на Unity три года, 
+          из них год делаю это профессионально.</p>
+        <p>Знаком с Zenject, DoTween, умею работать с Git'ом. 
+          Имею развитые знания в C#, понимании ООП и принципов SOLID. 
+          Работал со всем: начиная от левел-дизайна и заканчивая версткой GUI</p>
+      </div>
+    </section>
+    <section class="status container">
+      <h2 class="section-title">Мои проекты</h2>
+      <p>
+      <a href="https://github.com/WeeqnMain/ImpulseTrampling">Impulse Trampling</a><br>
+      <a href="https://github.com/WeeqnMain/ArcadeRacingGame">Arcade Racing Game</a><br>
+      <a href="https://github.com/WeeqnMain/KeyboardHighlightInput">Keyboard Highlight Input</a>
+      </p>
+    </section>
+    <section class="contacts container">
+      <h2 class="section-title">Контакты для связи</h2>
+        <p class="contacts-name">Букин Денис Михайлович</p>
+        <p><i>email:</i> <a href="mailto:gugobute@gmail.com">gugobute@gmail.com</a></p>
+        <p><i>телефон:</i> <a href="tel:+79876543210">+79876543210</a></p>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="container">
+      <p>Unity Game Developer</p>
+      <p>2023</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
